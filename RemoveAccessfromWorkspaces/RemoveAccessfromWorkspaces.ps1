@@ -143,7 +143,7 @@ foreach ($entry in $accessDetails) {
         #Check if the email is equal to the new Admin Email to avoid removing Admin access if previously had access to the workspace 
         if ($emailAddress -eq $newAdminEmail){        
             $status = "Not Removed"
-            $description = "User is the same as the new admimn and need to be kept in the Workspace"
+            $description = "User is the same as the new admin and need to be kept in the Workspace"
         } else {                            
             $urlRemoveAccess = "https://api.powerbi.com/v1.0/myorg/admin/groups/$workspaceId/users/$identifier"
             if ($principalType -eq "Group") {
