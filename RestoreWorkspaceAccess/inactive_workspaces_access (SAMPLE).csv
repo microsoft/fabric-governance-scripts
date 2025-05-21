@@ -1,0 +1,8 @@
+"workspaceId","emailAddress","displayName","identifier","principalType","groupUserAccessRight","executionTimestamp"
+"a6be1b03-033a-4ed1-b2b0-5454b02cd480","user1@example.com","User One","user1@example.com","User","Admin","20241203141950"
+"a6be1b03-033a-4ed1-b2b0-5454b02cd480","user2@example.com","User Two","user2@example.com","User","Admin","20241203141950"
+"aecc5056-61e3-44a9-b1db-c0c1c336aca5","user2@example.com","User Two","user2@example.com","User","Admin","20241203141950"
+"50eff159-b3fb-4d8e-8ae3-9e76e1b7b520","user2@example.com","User Two","user2@example.com","User","Admin","20241203141950"
+"50eff159-b3fb-4d8e-8ae3-9e76e1b7b520","user1@example.com","User One","user1@example.com","User","Contributor","20241203141950"
+"50eff159-b3fb-4d8e-8ae3-9e76e1b7b520",,"Power BI Rest API","app-1234-5678","App","Viewer","20241203141950"
+"50eff159-b3fb-4d8e-8ae3-9e76e1b7b520",,"Certification","group-1234-5678","Group","Viewer","20241203141950"
