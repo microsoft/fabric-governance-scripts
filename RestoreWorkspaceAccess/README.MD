@@ -1,5 +1,5 @@
 # Restore Workspace User Accesses from Backup 
-This PowerShell script can be used to restore access to Workspaces in Fabric from a backup of user assignment's that has been previously exported using `GetAccessInactiveWorkspace.ps1` script. This script can help to restore access to user if the workspace will become active again.
+This PowerShell script can be used to restore access to Workspaces in Fabric from a backup of user assignments that has been previously exported using `GetAccessInactiveWorkspace.ps1` script. This script can help to restore access to user if the workspace will become active again.
 
 ### Pre-Requirements
 To run this script you need: 
