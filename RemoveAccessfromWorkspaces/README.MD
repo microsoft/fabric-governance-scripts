@@ -60,7 +60,7 @@ L ~~~ T
 - **Input**: 
 -- **`<timestamp>_inactive_workspace_access.csv`**: the list of workspaces with corresponding access. The list will includes principals (Users, Groups, Service Principal) and corresponding access in the workspace (Admin, Viewer, Contributor, etc). See example on `inactive_workspaces_access (SAMPLE).csv`;
 - **Output**:
--- **`<timestamp>_updated_access_status.csv`**: outputs the list of workspaces with corresponding user access and access removal status. Principals that were removed will appear as "Removed", while issues in processing a removal will appear as "Not Removed" with a description of the resason. See example on `updated_access_status (SAMPLE).csv`;
+-- **`<timestamp>_updated_access_status.csv`**: outputs the list of workspaces with corresponding user access and access removal status. Principals that were removed will appear as "Removed", while issues in processing a removal will appear as "Not Removed" with a description of the reason. See example on `updated_access_status (SAMPLE).csv`;
 -- **`<timestamp>_removeaccesslog.log`**: A log with main script steps execution process. Use it to troubleshoot execution. See example in `removeaccesslog (SAMPLE).log`.   
 
 ### Important
